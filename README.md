@@ -1,3 +1,30 @@
+## ipr_extern (melodic) - 0.8.8-1
+
+The packages in the `ipr_extern` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic ipr_extern` on `Tue, 18 Dec 2018 13:21:25 -0000`
+
+These packages were released:
+- `ipr_extern`
+- `libmodbus`
+- `libreflexxestype2`
+- `ros_reflexxes`
+
+Version of package(s) in repository `ipr_extern`:
+
+- upstream repository: https://github.com/KITrobotics/ipr_extern.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.8.8-0`
+- new version: `0.8.8-1`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## ipr_extern (melodic) - 0.8.8-0
 
 The packages in the `ipr_extern` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic ipr_extern` on `Mon, 17 Dec 2018 11:17:02 -0000`
