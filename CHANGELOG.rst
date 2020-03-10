@@ -2,6 +2,9 @@
 Changelog for package libmodbus
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.0 (2020-03-10)
+------------------
+
 0.8.8 (2018-12-12)
 ------------------
 * reintroduiced not so redundant include file
