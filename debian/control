@@ -1,0 +1,13 @@
+Source: ros-melodic-ipr-extern
+Section: misc
+Priority: optional
+Maintainer: Denis Štogl <denis.stogl@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ipr-extern
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-libmodbus, ros-melodic-libreflexxestype2, ros-melodic-ros-reflexxes
+Description: Package with external libraries used in Industrial and Service workspaces.
+ Currentlly supported Libraries: Reflexxes, Libmodbus.
