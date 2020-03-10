@@ -19,7 +19,6 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES ${PROJECT_NAME}
   CATKIN_DEPENDS roscpp libreflexxestype2
-#  DEPENDS system_lib
 )
 
 ###########
@@ -53,6 +52,5 @@ install(TARGETS ${PROJECT_NAME}
 
  install(DIRECTORY include/${PROJECT_NAME}/
    DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-   FILES_MATCHING PATTERN "*.hpp"
    PATTERN ".svn" EXCLUDE
 )
