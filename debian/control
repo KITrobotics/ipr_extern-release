@@ -1,0 +1,12 @@
+Source: ros-kinetic-ros-reflexxes
+Section: misc
+Priority: optional
+Maintainer: Daniel Zumkeller <daniel.zumkeller@live.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-libreflexxestype2, ros-kinetic-pluginlib, ros-kinetic-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ros-reflexxes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-libreflexxestype2, ros-kinetic-pluginlib, ros-kinetic-roscpp
+Description: The ros_reflexxes package
