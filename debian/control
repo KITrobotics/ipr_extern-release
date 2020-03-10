@@ -1,0 +1,12 @@
+Source: ros-melodic-libmodbus
+Section: misc
+Priority: optional
+Maintainer: Denis Štogl <denis.stogl@kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cmake-modules
+Homepage: http://wiki.ros.org/iirob_controllers
+Standards-Version: 3.9.2
+
+Package: ros-melodic-libmodbus
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cmake-modules
+Description: The iirob_filters package implements following filters: 1) Low-Pass 2) Moving Mean 3) Gravity Compensation (used for force-torque sensors) 4) Threshold Filter
